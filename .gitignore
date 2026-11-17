@@ -1,0 +1,27 @@
+TAZ_TASKS.md
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Frontend dependencies and generated builds
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Local development database files
+*.db
+*.sqlite
+*.sqlite3
